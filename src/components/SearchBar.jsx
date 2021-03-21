@@ -13,7 +13,7 @@ const SearchBar = ({ onFormSubmit }) => {
   return (
     <nav className="navbar navbar-light bg-light mb-3">
       <div className="container-fluid">
-        <span>Search for a video</span>
+        <span>Video Search</span>
         <form className="d-flex" onSubmit={onSubmit}>
           <input
             className="form-control me-2"
